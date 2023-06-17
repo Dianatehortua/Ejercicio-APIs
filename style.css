@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+h1{
+text-align: center;
+}
+body {
+background-color: cornflowerblue;
+}
+  
+.main {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+text-align: center;
+padding: 1em;
+margin-top: 1em;
+}
+  
+.label {
+line-height: 3em;
+font-weight: 700;
+color:black
+}
+  
+input[type="file"] {
+background-color:cornflowerblue;
+border-radius: 2px;
+}
+  
+input[name="file"] {
+text-align: center;
+padding: 10px;
+color:black;
+overflow: hidden;
+border-radius: 10px;
+background:none;
+border: 2px solid;
+box-shadow: 2px
+}
+.output{
+    height: 200%;
+    width: 200%;
+    margin: auto;
+    justify-content: center;
+}
+
+.botonera {
+display: flex;
+flex-direction: row;
+height: 10%;
+}
+  
+.buttons {
+cursor: pointer;
+position: relative;
+width: 60px;
+height: 60px;
+margin: 10px;
+overflow: hidden;
+border-radius: 40px;
+border: 2px;
+box-shadow: 2px;
+color: white;
+background-color: rgb(77, 72, 72);
+font-weight: 200;
+}
+
+.cargando{
+font-size: 2em;
+font-weight: 700;
+color:black;
+border:2px;
+padding:2em;
+}
+
+.alert {
+font-size: 2em;
+font-weight: 700;
+color:red;
+border:2px solid;
+padding:2px;
+}

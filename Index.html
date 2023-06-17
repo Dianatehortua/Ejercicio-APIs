@@ -1,0 +1,23 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Práctica APIs: Reproductor de Video</title>
+</head>
+<body>
+    <h1>Reproductor de Video</h1>
+	<div id="main" class="main">
+        <label for="file">Selecciona un archivo local</label>
+        <input type="file" class="select-video" id="file" name="file" accept="video/*">
+        <output id="output_video"></output>
+        <div id="botonera" class="controls">
+            <button class="buttons" id="subir" style="visibility: hidden;" title="Subir volumen">Volume Up</button>
+            <button class="buttons" id="bajar" style="visibility: hidden;" title="Bajar volumen">Volume Down</button>
+            <button class="buttons" id="reproducir" style="visibility: hidden;" title="Reproducir">Play</button>
+            <button class="buttons" id="pausar" style="visibility: hidden;" title="Pausar">Pause</button>
+            
+        </div>
+    </div>
+    <script src="Indexx.js"></script>
+</body>
+</html>
